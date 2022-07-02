@@ -1,0 +1,6 @@
+Gustavo = 42
+Ana = 22 
+Pedro = 35
+Paulo = 95
+Elvinho = 55
+Ted = 10

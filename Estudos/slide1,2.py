@@ -1,0 +1,6 @@
+n1 = float(input('Digite o valor 1: '))
+n2 = float(input('Digite o valor 2: '))
+print('O resultado da soma entre {} e {} é igual a {}'.format(n1,n2,n1+n2))
+print('O resultado da subtração entre {} e {} é igual a {}'.format(n1,n2,n1-n2))
+print('O resultado da multiplicação entre {} e {} é igual a {}'.format(n1,n2,n1*n2))
+print('O resultado da divisão entre {} e {} é igual a {}'.format(n1,n2,n1/n2))
