@@ -1,6 +1,6 @@
-from classes import Escritor
-from classes import Caneta
-from classes import MaquinaDeEscrever
+from associacao_classes import Escritor
+from associacao_classes import Caneta
+from associacao_classes import MaquinaDeEscrever
 
 escritor = Escritor('Joãozinho')
 caneta = Caneta('Bic')
