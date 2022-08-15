@@ -8,9 +8,9 @@ public class Revisao2 {
         int idadeVelho = 0, idadeNovo = 0;
         Scanner ler = new Scanner(System.in);
         for (int c = 0; c < 10; c++) {
-            System.out.print("Digite o nome da pessoa: ");
+            System.out.print("Digite o nome da " + (c + 1) + "° pessoa: ");
             nome[c] = ler.next();
-            System.out.print("Digite a idade da pessoa: ");
+            System.out.print("Digite a idade da " + (c + 1) + "° pessoa: ");
             idade[c] = ler.nextInt();
             if (c == 0) {
                 novo = nome[c];
@@ -30,8 +30,7 @@ public class Revisao2 {
         }
         System.out.println();
         for (int c = 0; c < 10; c++) {
-            System.out.print(nome[c] + " possui ");
-            System.out.print(idade[c] + " anos. ");
+            System.out.print(nome[c] + " possui " + idade[c] + " anos.");
             System.out.println();
         }
         System.out.println(novo + " é o mais o mais novo com " + idadeNovo + " anos.");
