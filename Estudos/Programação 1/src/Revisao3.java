@@ -1,5 +1,3 @@
-import javax.print.event.PrintEvent;
-
 public class Revisao3 {
     public static void main(String[] args) {
         String listaMulheres[] = { "Rosimere", "Merielly", "Natália", "Tathyanne", "Máyra", "Cecília", "Maria",
