@@ -1,13 +1,13 @@
 package entidades;
 
-public class  Bilhetes {
+public class Bilhete {
 
 	
 	public double horário;
 	public double preço;
 	public int quantidade;
 
-	public Bilhetes (double horário, double preço, int quantidade) {
+	public Bilhete (double horário, double preço, int quantidade) {
 		super();
 		this.horário = horário;
 		this.preço = preço;

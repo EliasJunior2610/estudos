@@ -1,10 +1,10 @@
 package entidades;
 
-public class BilhetesDeFesta extends Bilhetes {
+public class BilheteDeFesta extends Bilhete {
 
     public boolean camarote;
 
-    public BilhetesDeFesta(double horário, double preço, int quantidade) {
+    public BilheteDeFesta(double horário, double preço, int quantidade) {
         super(horário, preço, quantidade);
     }
 

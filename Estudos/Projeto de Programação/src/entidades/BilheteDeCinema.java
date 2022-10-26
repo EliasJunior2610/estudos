@@ -1,6 +1,6 @@
 package entidades;
 
-public class BilhetesDeCinema extends Bilhetes {
+public class BilheteDeCinema extends Bilhete {
     
     public String título;
     public String idioma;
@@ -11,7 +11,7 @@ public class BilhetesDeCinema extends Bilhetes {
     public boolean filme3d;
 	public boolean legenda;
     
-    public BilhetesDeCinema(double horário, double preço, int quantidade) {
+    public BilheteDeCinema(double horário, double preço, int quantidade) {
         super(horário, preço, quantidade);
     }
     

@@ -1,11 +1,11 @@
 package entidades;
 
-public class BilhetesDeShow extends Bilhetes {
+public class BilheteDeShow extends Bilhete {
 
     public String nomeDaBanda;
     public boolean camarote;
     
-    public BilhetesDeShow(double horário, double preço, int quantidade) {
+    public BilheteDeShow(double horário, double preço, int quantidade) {
         super(horário, preço, quantidade);
     }
     public String getNomeDaBanda() {
