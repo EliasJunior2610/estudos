@@ -1,5 +1,3 @@
-package entidades;
-
 public class BilheteDeFesta extends Bilhete {
 
     public boolean camarote;

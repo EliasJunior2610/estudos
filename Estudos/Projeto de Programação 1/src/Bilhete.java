@@ -1,8 +1,5 @@
-package entidades;
-
 public class Bilhete {
 
-	
 	public double horário;
 	public double preço;
 	public int quantidade;
