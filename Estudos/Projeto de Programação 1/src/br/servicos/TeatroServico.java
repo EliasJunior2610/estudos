@@ -1,3 +1,5 @@
+package br.servicos;
+import br.entidades.BilheteDeTeatro;
 public class TeatroServico {
     public void cadastrar(double preço, double horário, int quantidade) {
         try {

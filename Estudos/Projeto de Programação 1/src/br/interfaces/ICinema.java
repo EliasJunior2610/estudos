@@ -1,3 +1,4 @@
+package br.interfaces;
 public interface ICinema {
     public String titulo = "Título";
     public String genero = "Gênero";

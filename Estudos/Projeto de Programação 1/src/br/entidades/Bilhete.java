@@ -1,3 +1,5 @@
+package br.entidades;
+
 public class Bilhete {
 
 	public double horário;

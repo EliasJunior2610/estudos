@@ -1,4 +1,6 @@
-public class CinemaServico implements ICinema {
+package br.servicos;
+import br.entidades.BilheteDeCinema;
+public class CinemaServico {
     public void cadastrar(double preço, double horário, int quantidade) {
         try {
             BilheteDeCinema c1 = new BilheteDeCinema(horário, preço, quantidade);

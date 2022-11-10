@@ -1,4 +1,6 @@
-public class FestaServico implements IFesta{
+package br.servicos;
+import br.entidades.BilheteDeFesta;
+public class FestaServico {
     public void cadastrar(double preço, double horário, int quantidade) {
         try {
             BilheteDeFesta f1 = new BilheteDeFesta(horário, preço, quantidade);

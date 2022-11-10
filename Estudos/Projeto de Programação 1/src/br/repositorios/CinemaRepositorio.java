@@ -1,3 +1,4 @@
+package br.repositorios;
 import java.util.ArrayList;
 public class CinemaRepositorio {
     ArrayList<String> cinemaRepositorio;

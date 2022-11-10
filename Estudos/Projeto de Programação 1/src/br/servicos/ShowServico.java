@@ -1,4 +1,6 @@
-public class ShowServico implements IShow{
+package br.servicos;
+import br.entidades.BilheteDeShow;
+public class ShowServico {
     public void cadastrar(double preço, double horário, int quantidade) {
         try {
             BilheteDeShow s1 = new BilheteDeShow(horário, preço, quantidade);
