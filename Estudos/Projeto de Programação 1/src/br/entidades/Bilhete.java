@@ -1,12 +1,18 @@
+//nome do pacote;
 package br.entidades;
+//importação;
 import java.util.ArrayList;
+//inicializando a entidade;
 public class Bilhete {
 
+	//atributos da entidade
 	public double horário;
 	public double preço;
 	public int quantidade;
+	//criando o ArrayList;
 	private ArrayList<String> bilhete;
 	
+	//configurando os atributos;
 	public Bilhete (double horário, double preço, int quantidade) {
 		super();
 		this.horário = horário;
@@ -14,10 +20,12 @@ public class Bilhete {
 		this.quantidade = quantidade;
 	}
 	
+	//inicializando o ArrayList;
 	private Bilhete(ArrayList<String> bilhete) {
         bilhete = new ArrayList<String>();
     }
 
+	//getters e setters;
 	public double getHorario() {
 		return horário;
 	}
@@ -41,7 +49,7 @@ public class Bilhete {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
-
+	//Crud do ArrayList;
 	private ArrayList<String> getBilhete() {
         return bilhete;
     }
@@ -49,7 +57,7 @@ public class Bilhete {
     private void setBilhete (ArrayList<String> bilhete) {
         this.bilhete = bilhete;
     }
-
+    
     private void addBilhete (String b) {
         bilhete.add(b);
     }

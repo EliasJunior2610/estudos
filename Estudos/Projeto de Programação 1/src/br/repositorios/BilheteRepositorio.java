@@ -1,12 +1,16 @@
+//nome do pacote;
 package br.repositorios;
+//importação;
 import java.util.ArrayList;
+//inicializando o repositório;
 public class BilheteRepositorio {
-    ArrayList<String> bilheteRepositorio;
-
+	//criando o ArrayList;
+	ArrayList<String> bilheteRepositorio;
+	//inicializando o ArrayList;
     public BilheteRepositorio (ArrayList<String> bilheteRepositorio) {
         bilheteRepositorio = new ArrayList<String>();
     }
-
+    //Crud do ArrayList;
     public ArrayList<String> getBilheteRepositorio() {
         return bilheteRepositorio;
     }

@@ -1,12 +1,16 @@
+//nome do pacote;
 package br.repositorios;
+//importação;
 import java.util.ArrayList;
+//inicializando o repositório;
 public class CinemaRepositorio {
-    ArrayList<String> cinemaRepositorio;
-
+	//criando o ArrayList;
+	ArrayList<String> cinemaRepositorio;
+	//inicializando o ArrayList;
     public CinemaRepositorio (ArrayList<String> cinemaRepositorio) {
         cinemaRepositorio = new ArrayList<String>();
     }
-
+    //Crud do ArrayList;
     public ArrayList<String> getCinemaRepositorio() {
         return cinemaRepositorio;
     }

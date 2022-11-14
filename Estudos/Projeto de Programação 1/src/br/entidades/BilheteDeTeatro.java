@@ -1,17 +1,21 @@
+//nome do pacote;
 package br.entidades;
+//importações;
 import br.interfaces.ITeatro;
 import java.util.ArrayList;
+//inicializando a entidade;
 public class BilheteDeTeatro extends Bilhete implements ITeatro {
+	//criando o ArrayList;
 	private ArrayList<String> bilhete;
-	
+	//herdando atributos da entidade mãe;
     public BilheteDeTeatro(double horário, double preço, int quantidade) {
         super(horário, preço, quantidade);
     }
-    
+    //inicializando o ArrayList;
     private void Bilhete(ArrayList<String> bilhete) {
     	bilhete = new ArrayList<String>();
     }
-    
+    //Crud do ArrayList;
     private ArrayList<String> getBilhete() {
         return bilhete;
     }
