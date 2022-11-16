@@ -12,7 +12,7 @@ public class BilheteServico {
             b1.setQuantidade(quantidade);
         } //catch irá se ativar caso o bloco acima dê erro 
     	catch (Exception ex) {
-            System.out.println("Erro! O item que você digitou não se encontra na lista!");
+            System.out.println("Erro!");
         }
     }       
 }
