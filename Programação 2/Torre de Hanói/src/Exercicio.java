@@ -1,16 +1,13 @@
-//Integrantes: Denyel, Elias, Luan Santos, Lucas Oliveira, Tathyanne, João Pedro, João Carlos, Ricardo Junior;
+//Integrantes: Denyel, Elias, Luan Santos, Lucas Oliveira, João Pedro, João Carlos, Ricardo Junior;
 import java.util.Stack;
 public class Exercicio {
     public static void main(String[] args) {
         Stack<Integer> pilha1 = new Stack<>();
         Stack<Integer> pilha2 = new Stack<>();
         Stack<Integer> pilha3 = new Stack<>();
-        pilha1.push(6);
-        pilha1.push(5);
-        pilha1.push(4);
-        pilha1.push(3);
-        pilha1.push(2);
-        pilha1.push(1);
+        for (int i = 5; i > 0; i--) {
+            pilha1.push(i);
+        }
         System.out.printf("Pilha 1: %s \n", pilha1);
         System.out.printf("Pilha 2: %s \n", pilha2);
         System.out.printf("Pilha 3: %s \n", pilha3);
