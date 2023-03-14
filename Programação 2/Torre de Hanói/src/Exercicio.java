@@ -5,7 +5,7 @@ public class Exercicio {
         Stack<Integer> pilha1 = new Stack<>();
         Stack<Integer> pilha2 = new Stack<>();
         Stack<Integer> pilha3 = new Stack<>();
-        for (int i = 5; i > 0; i--) {
+        for (int i = 6; i > 0; i--) {
             pilha1.push(i);
         }
         System.out.printf("Pilha 1: %s \n", pilha1);
